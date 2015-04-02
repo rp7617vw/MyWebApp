@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="eng">
+
+<head>
+
+    <link href="StyleSheet/main.css" rel="stylesheet" />
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"/>
+    <script src="JavaScript/bootstrap.min.js"></script>
+    <script src="JavaScript/bootstrap.js"></script>
+    <script src="JavaScript/jquery-2.1.1.min.js"></script>
+    <script src="JavaScript/ractive.js"></script>
+</head>
+<body>
+    <form class="form-signin">
+        <div class="form-group">
+            <h1 id="head1">User Information</h1>
+            <label>First Name: </label> <input class ="form-control userInfo" id="fName" type="text" placeholder="First Name" required autofocus/><br/><br/>
+            <label>Last Name:</label><input class="form-control userInfo" id="lName" type="text" placeholder="Last Name" required/><br/><br/>
+            <label>Email:</label><input type="email" class="form-control userInfo" id="email" placeholder = "Email"  required/><br/><br/>
+            <label>User Name:</label><input type="text" class="form-control userInfo" id="userName" placeholder = "User Name" required/><br/><br/>
+            <label>Password:</label> <input type="password" class="form-control userInfo" id="password" placeholder = "Password" required/><br/><br/>
+            <label>Re-enter Password: </label> <input type="password" class="form-control userInfo" id="passwordReenter" placeholder = "Re-Enter Password"required/><br/><br/>
+            <label>Cell Number:</label><input class="form-control userInfo" id="phoneNumber" type="text" placeholder = "Cell Phone Number"required/><br/><br/>
+            <label>Cell Phone Provider:</label>
+             <select>
+                  <option value=""></option>
+                  <option value="aTnT">AT&T</option>
+                  <option value="tMobile">TMobile</option>
+                  <option value="verizon">Verizon</option>
+                  <option value="sprint">Sprint</option>
+            </select>
+            <br />
+            <br />
+           <label> Want to get notification?</label> <input type="radio" name="notify" value="True"/>Yes
+                                      <input type="radio" name="notify" value="False"/>NO
+            <br/><br/>
+            <a href="terms_and_condition" id="termAndCondition"><label>Terms and Conditions</label></a> 
+            <input type="radio" name="termsAndConditions" value="Agree"/>Agree
+            <input type="radio" name="termsAndCondition" value="Disagree"/>Disagree
+            <br/><br/>
+            <input type="submit" class="btn btn-lg btn-default btn-block" value="Register" />
+        
+
+        </div>
+    </form>
+        
+        
+</body>
+</html>

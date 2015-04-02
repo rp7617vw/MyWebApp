@@ -1,0 +1,36 @@
+﻿form { 
+    margin: 0 auto; 
+    width:40%;
+    margin-top:4%;
+}
+
+.userInfo {
+    padding: 0 28% 2% 2%;
+    display:-webkit-inline-box;
+}
+
+label {
+    max-width:50%;
+    clear:left;
+    text-align:right;
+    padding-right:5%;
+    font-weight:bold;
+    margin-left:7%;
+}
+
+#head1 {
+    margin: 6% 0% 10% 36%;
+    margin-left:36%;
+}
+
+div {
+    border: 2px solid #a1a1a1;
+    padding: 20px; 
+    background: white;
+    border-radius: 25px;
+}
+.form-control {
+    max-width: 60%;
+    float:right;
+    margin-right:4%;
+}
